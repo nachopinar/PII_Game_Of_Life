@@ -2,7 +2,16 @@
 
 namespace PII_Game_Of_Life
 {
-    public class Class1
+    public class Board
     {
+        public bool[,] GameBoard;
+
+//CONSTRUCTOR 
+        public Board(int width, int height)
+        {
+            this.GameBoard = new bool[width,height];
+        }
     }
 }
+
+
