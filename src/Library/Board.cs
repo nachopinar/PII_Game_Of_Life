@@ -11,6 +11,7 @@ namespace PII_Game_Of_Life
         {
             this.GameBoard = new bool[width,height];
         }
+
     }
 }
 
